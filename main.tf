@@ -26,3 +26,5 @@ resource "aws_instance" "ubuntu" {
     Name = var.instance_name
   }
 }
+
+resource "null_resource" "tfc-pls-apply" { }
