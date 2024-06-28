@@ -14,8 +14,4 @@ variable "instance_name" {
   default     = "Provisioned by Terraform"
 }
 
-#test
-variable "test" {
-default      = file("./folder1/blah")
-}
 
