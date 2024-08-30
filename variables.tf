@@ -1,8 +1,5 @@
 #howdy
-variable "region" {
-  description = "AWS region"
-  default     = "us-west-1"
-}
+variable "region" { }
 
 variable "instance_type" {
   description = "Type of EC2 instance to provision"
